@@ -1,42 +1,249 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=1440">
-  <title>인터파크 와이어프레임</title>
-  <link rel="stylesheet" href="css/index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interpark Layout</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <div class="main-wrap">
-    <header class="header-area">
-      <div class="header-title">Title</div>
-      <div class="header-icons">
-        <span class="header-icon"></span>
-        <span class="header-icon"></span>
-        <span class="header-icon-large"></span>
-      </div>
-      <div class="header-top-texts right-align">
-        <span class="header-text">로그인</span>
-        <span class="header-text">내예약</span>
-      </div>
-     
-      <div class="header-categories left-align">
-        <span class="header-text">콘서트</span>
-        <span class="header-text">뮤지컬</span>
-        <span class="header-text">스포츠</span>
-        <span class="header-text">전시/행사</span>
-        <span class="header-text">클래식/무용</span>
-        <span class="header-text">아동/가족</span>
-        <span class="header-text">연극</span>
-        <span class="header-text">레저/캠핑</span>
-        <span class="header-text">토핑</span>
-        <span class="header-text">MD shop</span>
-        <span class="header-text blue">공연장</span>
-        <span class="header-text blue">지역별</span>
-        <span class="header-text blue">랭킹</span>
-        <span class="header-text blue">오픈예정</span>
-      </div>
-    </header>
+
+  <div class="popup">
+    해당 사이트는 학습용으로 제작되었으며 인터파크 와 무관합니다.
+    구직용 포트폴리오로 상업적 목적이 없음을 알립니다.
+    <button>닫기</button>
   </div>
+
+
+  <header class="header">
+    <div class="logo">Title</div>
+    <input type="text" placeholder="Search..." class="search" />
+    <button class="icon-button">✎</button>
+    <div class="user-section">
+      <span class="user-icon">👤</span>
+      <span class="login">로그인</span>
+      <span class="cart">🛒</span>
+    </div>
+  </header>
+
+
+  <nav class="menu">
+    <ul>
+      <li>뮤지컬</li>
+      <li>콘서트</li>
+      <li>스포츠</li>
+      <li>전시/행사</li>
+      <li>클래식/무용</li>
+      <li>아동/가족</li>
+      <li>연극</li>
+      <li>레저/캠핑</li>
+      <li>토핑</li>
+      <li>MD shop</li>
+      <li>랭킹</li>
+      <li>오픈예정</li>
+      <li>지역별</li>
+      <li>공연장</li>
+    </ul>
+  </nav>
+
+
+  <section class="main-visual"></section>
+
+
+  <section class="slider small-slider"></section>
+
+  <section class="recommend-section">
+
+    <div class="horizontal-cards">
+      <div class="h-card"></div>
+      <div class="h-card"></div>
+      <div class="h-card"></div>
+      <div class="h-card"></div>
+      <div class="h-card"></div>
+      <div class="h-card"></div>
+    </div>
+  </section>
+
+
+  <section class="category-section">
+    <h2>장르별 랭킹</h2>
+    
+     <div class="category-tags">
+      <span class="tag active">뮤지컬</span>
+      <span class="tag">콘서트</span>
+      <span class="tag">스포츠</span>
+      <span class="tag">전시/행사</span>
+      <span class="tag">클래식/무용</span>
+      <span class="tag">아동/가족</span>
+      <span class="tag">연극</span>
+      <span class="tag">레저/캠핑</span>
+    </div>
+
+    <div class="card-grid">
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+
+    <button class="main-button">뮤지컬 랭킹 전체보기></button>
+  </section>
+
+  <section class="upcoming-section">
+    <h2>오픈 예정</h2>
+    <div class="upcoming-grid">
+      <div class="upcoming-card">
+        <div class="upcoming-thumb"></div>
+        <div class="upcoming-info">
+          <span class="date">07.10 오픈</span>
+          <span class="title">DAY6 4TH FANMEETING〈PIER 10: All My Days〉</span>
+        </div>
+      </div>
+      <div class="upcoming-card">
+        <div class="upcoming-thumb"></div>
+        <div class="upcoming-info">
+          <span class="date">07.11 오픈</span>
+          <span class="title">PARK BO GUM 2025 FAN MEETING TOUR [BE WITH YOU] IN SEOUL </span>
+        </div>
+      </div>
+      <div class="upcoming-card">
+        <div class="upcoming-thumb"></div>
+        <div class="upcoming-info">
+          <span class="date">07.12 오픈</span>
+          <span class="title">연극 </span>
+        </div>
+      </div>
+      <div class="upcoming-card">
+        <div class="upcoming-thumb"></div>
+        <div class="upcoming-info">
+          <span class="date">07.13 오픈</span>
+          <span class="title">전시 </span>
+        </div>
+      </div>
+      <div class="upcoming-card">
+        <div class="upcoming-thumb"></div>
+        <div class="upcoming-info">
+          <span class="date">07.14 오픈</span>
+          <span class="title">스포츠 </span>
+        </div>
+      </div>
+      <div class="upcoming-card">
+        <div class="upcoming-thumb"></div>
+        <div class="upcoming-info">
+          <span class="date">07.15 오픈</span>
+          <span class="title">아동극 </span>
+        </div>
+      </div>
+    </div>
+
+    <button class="main-button">오픈예정 공연 전체보기></button>
+  </section>
+
+  <section class="upcoming-section">
+    <h2>NOL PLAY</h2>
+
+  <div class="category-tags">
+      <span class="tag active">추천영상</span>
+      <span class="tag">뮤지컬</span>
+      <span class="tag">콘서트</span>
+      <span class="tag">전시/행사</span>
+      <span class="tag">클래식/무용</span>
+      <span class="tag">연극</span>
+    </div>
+
+    <div class="upcoming-grid">
+      <div class="upcoming-card">
+        <div class="upcoming-thumb"></div>
+        <div class="upcoming-info">
+          <span class="date">07.10 오픈</span>
+          <span class="title">DAY6 4TH FANMEETING〈PIER 10: All My Days〉</span>
+        </div>
+      </div>
+      <div class="upcoming-card">
+        <div class="upcoming-thumb"></div>
+        <div class="upcoming-info">
+          <span class="date">07.11 오픈</span>
+          <span class="title">PARK BO GUM 2025 FAN MEETING TOUR [BE WITH YOU] IN SEOUL </span>
+        </div>
+      </div>
+      <div class="upcoming-card">
+        <div class="upcoming-thumb"></div>
+        <div class="upcoming-info">
+          <span class="date">07.12 오픈</span>
+          <span class="title">연극 </span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+<section class="grid-section">
+  <h2>지금 할인중!</h2>
+  <div class="card-grid six-columns">
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+  </div>
+  <button class="main-button">할인티켓 전체보기&gt;</button>
+</section>
+
+
+
+  <section class="grid-section">
+    <h2>MD Pick!</h2>
+  <div class="category-tags">
+  <span class="tag active">오직 NOL 티켓에서만</span>
+  <span class="tag">핫이슈 클래식&무용</span>
+  <span class="tag">화제의 전시</span>
+  <span class="tag">해외 공연</span>
+</div>
+
+
+    <div class="card-grid">
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+  </section>
+
+  <section class="grid-section">
+    <h2>추천키워드</h2>
+       <div class="category-tags">
+      <span class="tag active">👍재관람율 높은</span>
+      <span class="tag">🧸아이와 함께</span>
+      <span class="tag">🤡대학로 연극 추천</span>
+    </div>
+
+    <div class="card-grid">
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+  </section>
+
+  <section class="banner">
+    <div class="banner-content">button</div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-cols">
+      <div class="footer-col">Title<br>Text</div>
+      <div class="footer-col">Title<br>Text</div>
+      <div class="footer-col">Title<br>Text</div>
+    </div>
+  </footer>
+
 </body>
+
 </html>
