@@ -4,9 +4,28 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/partner-nol.svg">
+    <meta name="description" content="UI/UX 개선을 중심으로 인터파크 티켓 사이트를 리디자인한 포트폴리오입니다. HTML, CSS, JS를 활용한 실무 중심 퍼블리싱 사례입니다.">
+    <meta name="keywords"
+        content="웹 퍼블리싱, 인터파크 티켓, 리디자인, HTML, CSS, 반응형 웹, UI 개선, UX 디자인, 웹 접근성, 포트폴리오, 프로젝트, 취업 준비, 웹사이트 리뉴얼">
+    <meta name="author" content="옥다희">
+    <meta property="og:title" content="인터파크티켓 메인페이지 리디자인 프로젝트">
+    <meta property="og:url" content="https://qwerewqwerew.github.io/yallow/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/og-card.png">
+    <meta property="og:site_name" content="인터파크티켓 리디자인 프로젝트">
+    <meta property="og:description"
+        content="UI/UX 개선을 중심으로 인터파크 티켓 사이트를 리디자인한 포트폴리오입니다. HTML, CSS, JS를 활용한 실무 중심 퍼블리싱 사례입니다.">
     <title>Interpark Layout</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Pretendard&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -18,35 +37,47 @@
     </div>
 
 
-    <header class="header">
-        <div class="logo">Title</div>
-        <input type="text" placeholder="Search..." class="search" />
-        <button class="icon-button">✎</button>
-        <div class="user-section">
-            <span class="user-icon">👤</span>
-            <span class="login">로그인</span>
-            <span class="cart">🛒</span>
-        </div>
-    </header>
+    <div class="inner">
+        <header class="header">
+            <div class="left-section">
+                <div class="logo">
+                    <img src="images/nol-interpark-logo.svg" alt="로고">
+                </div>
+                <div class="search-wrapper">
+                    <input type="text" placeholder="" class="search" />
+                    <span class="search-icon"><img src="images/material-symbols_search-rounded.png" alt="검색"></span>
+                </div>
+            </div>
+
+            <div class="user-section">
+                <span class="user-icon">
+                    <img src="images/Vector.png" alt="">로그인</span>
+                <span class="cart">
+                    <img src="images/tabler_ticket.png" alt="">내티켓</span>
+            </div>
+        </header>
+    </div>
 
 
     <nav class="menu">
-        <ul>
-            <li>뮤지컬</li>
-            <li>콘서트</li>
-            <li>스포츠</li>
-            <li>전시/행사</li>
-            <li>클래식/무용</li>
-            <li>아동/가족</li>
-            <li>연극</li>
-            <li>레저/캠핑</li>
-            <li>토핑</li>
-            <li>MD shop</li>
-            <li>랭킹</li>
-            <li>오픈예정</li>
-            <li>지역별</li>
-            <li>공연장</li>
-        </ul>
+        <div class="inner">
+            <ul>
+                <li><a href="#">뮤지컬</a></li>
+                <li><a href="#">콘서트</a></li>
+                <li><a href="#">스포츠</a></li>
+                <li><a href="#">전시/행사</a></li>
+                <li><a href="#">클래식/무용</a></li>
+                <li><a href="#">아동/가족</a></li>
+                <li><a href="#">연극</a></li>
+                <li><a href="#">레저/캠핑</a></li>
+                <li><a href="#">토핑</a></li>
+                <li><a href="#">MD shop</a></li>
+                <li><a href="#" class="blue-link">랭킹</a></li>
+                <li><a href="#" class="blue-link">오픈예정</a></li>
+                <li><a href="#" class="blue-link">지역별</a></li>
+                <li><a href="#" class="blue-link">공연장</a></li>
+            </ul>
+        </div>
     </nav>
 
 
@@ -56,125 +87,182 @@
     <section class="slider small-slider"></section>
 
     <section class="recommend-section">
-
-        <div class="horizontal-cards">
-            <div class="h-card"></div>
-            <div class="h-card"></div>
-            <div class="h-card"></div>
-            <div class="h-card"></div>
-            <div class="h-card"></div>
-            <div class="h-card"></div>
+        <div class="inner">
+            <div class="horizontal-cards">
+                <div class="h-card" style="background-image: url('images/250707114245_25009289.gif');"></div>
+                <div class="h-card" style="background-image: url('images/250707114450_25007139.gif');"></div>
+                <div class="h-card" style="background-image: url('images/250707115144_25006099.gif');"></div>
+                <div class="h-card" style="background-image: url('images/250707114552_25005662.gif');"></div>
+                <div class="h-card" style="background-image: url('images/250707114710_25005242.gif');"></div>
+                <div class="h-card" style="background-image: url('images/250707114838_25006507.gif');"></div>
+            </div>
         </div>
     </section>
 
 
     <section class="category-section">
-        <h2>장르별 랭킹</h2>
+        <div class="inner">
+            <h2>장르별 랭킹</h2>
+            <div class="category-tags">
+                <span class="tag active">뮤지컬</span>
+                <span class="tag">콘서트</span>
+                <span class="tag">스포츠</span>
+                <span class="tag">전시/행사</span>
+                <span class="tag">클래식/무용</span>
+                <span class="tag">아동/가족</span>
+                <span class="tag">연극</span>
+                <span class="tag">레저/캠핑</span>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="poster" style="background-image: url(images/20250620-54087.jpg);"></div>
+                    <div class="info">
+                        <p class="title">DAY6 4TH FANMEETING〈PIER 10: All My Days〉</p>
+                        <p class="venue">잠실실내체육관</p>
+                        <p class="date">2025.07.18~2025.07.27</p>
+                    </div>
+                </div> <!-- poster-1 -->
 
-        <div class="category-tags">
-            <span class="tag active">뮤지컬</span>
-            <span class="tag">콘서트</span>
-            <span class="tag">스포츠</span>
-            <span class="tag">전시/행사</span>
-            <span class="tag">클래식/무용</span>
-            <span class="tag">아동/가족</span>
-            <span class="tag">연극</span>
-            <span class="tag">레저/캠핑</span>
+                <div class="card">
+                    <div class="poster" style="background-image: url(images/25008585_p.gif);"></div>
+                    <div class="info">
+                        <p class="title">PARK BO GUM 2025 FAN MEETING TOUR</p>
+                        <p class="venue">장충체육관</p>
+                        <div class="date">2025.08.01 ~2025.08.02</div>
+                    </div>
+                </div> <!-- poster-2 -->
+
+                <div class="card">
+                    <div class="poster" style="background-image: url(images/25009929_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">Flight: 원위 (ONEWE) 편</p>
+                        <p class="venue">신한카드 스퀘어라이브홀</p>
+                        <div class="date">2025.08.30 ~2025.08.31</div>
+                    </div>
+                </div> <!-- poster-3 -->
+
+                <div class="card">
+                    <div class="poster" style="background-image: url(images/25008718_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">HOSHI X WOOZI <br> FAN CONCERT</p>
+                        <p class="venue">잠실실내체육관</p>
+                        <div class="date">2025.07.11 ~2025.07.13</div>
+                    </div>
+                </div> <!-- poster-4 -->
+
+                <div class="card">
+                    <div class="poster" style="background-image: url(images/25008553_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">2025 10CM 단독공연 <br></p>
+                        <p class="venue">올림픽공원 핸드볼경기장</p>
+                        <div class="date">2025.08.09 ~2025.08.10</div>
+                    </div>
+                </div> <!-- poster-5 -->
+            </div>
+            <div class="button-wrapper">
+                <button class="main-button">뮤지컬 랭킹 전체보기 ></button>
+            </div>
         </div>
-
-        <div class="card-grid">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-        </div>
-
-        <button class="main-button">뮤지컬 랭킹 전체보기></button>
     </section>
 
     <section class="upcoming-section">
-        <h2>오픈 예정</h2>
-        <div class="upcoming-grid">
-            <div class="upcoming-card">
-                <div class="upcoming-thumb"></div>
-                <div class="upcoming-info">
-                    <span class="date">07.10 오픈</span>
-                    <span class="title">DAY6 4TH FANMEETING〈PIER 10: All My Days〉</span>
+        <div class="inner">
+            <h2>오픈 예정</h2>
+            <div class="upcoming-grid">
+                <div class="upcoming-card">
+                    <div class="upcoming-thumb">
+                        <img src="images/20250620-54087.jpg" alt="">
+                    </div>
+                    <div class="upcoming-info">
+                        <span class="date">07.10 오픈</span>
+                        <span class="title">DAY6 4TH FANMEETING <br>〈PIER 10: All My Days〉</span>
+                    </div>
+                </div>
+
+                <div class="upcoming-card">
+                    <div class="upcoming-thumb">
+                        <img src="images/25009957_p.gif" alt="">
+                    </div>
+                    <div class="upcoming-info">
+                        <span class="date">07.11 오픈</span>
+                        <span class="title">［What you left in me］ <br> 강현우 debut showcase </span>
+                    </div>
+                </div>
+                <div class="upcoming-card">
+                    <div class="upcoming-thumb">
+                        <img src="images/25009751_p.gif" alt="">
+                    </div>
+                    <div class="upcoming-info">
+                        <span class="date">07.14 오픈</span>
+                        <span class="title">김아름 여름 단독 콘서트 <br>〈AQUA CITY〉 </span>
+                    </div>
+                </div>
+                <div class="upcoming-card">
+                    <div class="upcoming-thumb">
+                        <img src="images/25008966_p.gif" alt="">
+                    </div>
+                    <div class="upcoming-info">
+                        <span class="date">07.30 오픈</span>
+                        <span class="title">TOMORROW X TOGETHER WORLD TOUR <br> 〈ACT : TOMORROW〉 IN SEOUL </span>
+                    </div>
+                </div>
+                <div class="upcoming-card">
+                    <div class="upcoming-thumb">
+                        <img src="images/20250710113537.jpg" alt="">
+                    </div>
+                    <div class="upcoming-info">
+                        <span class="date">07.15 오픈</span>
+                        <span class="title">허용별 콘서트 : 보컬 전쟁 시즌2 <br> “The War of Vocalists II” - 창원 </span>
+                    </div>
+                </div>
+                <div class="upcoming-card">
+                    <div class="upcoming-thumb">
+                        <img src="images/25008903_p.gif" alt="">
+                    </div>
+                    <div class="upcoming-info">
+                        <span class="date">07.17 오픈</span>
+                        <span class="title">너드커넥션 SUMMER LIVE, PULSE </span>
+                    </div>
                 </div>
             </div>
-            <div class="upcoming-card">
-                <div class="upcoming-thumb"></div>
-                <div class="upcoming-info">
-                    <span class="date">07.11 오픈</span>
-                    <span class="title">PARK BO GUM 2025 FAN MEETING TOUR [BE WITH YOU] IN SEOUL </span>
-                </div>
-            </div>
-            <div class="upcoming-card">
-                <div class="upcoming-thumb"></div>
-                <div class="upcoming-info">
-                    <span class="date">07.12 오픈</span>
-                    <span class="title">연극 </span>
-                </div>
-            </div>
-            <div class="upcoming-card">
-                <div class="upcoming-thumb"></div>
-                <div class="upcoming-info">
-                    <span class="date">07.13 오픈</span>
-                    <span class="title">전시 </span>
-                </div>
-            </div>
-            <div class="upcoming-card">
-                <div class="upcoming-thumb"></div>
-                <div class="upcoming-info">
-                    <span class="date">07.14 오픈</span>
-                    <span class="title">스포츠 </span>
-                </div>
-            </div>
-            <div class="upcoming-card">
-                <div class="upcoming-thumb"></div>
-                <div class="upcoming-info">
-                    <span class="date">07.15 오픈</span>
-                    <span class="title">아동극 </span>
-                </div>
+            <div class="button-wrapper">
+                <button class="main-button">오픈예정 공연 전체보기></button>
             </div>
         </div>
-
-        <button class="main-button">오픈예정 공연 전체보기></button>
     </section>
 
     <section class="upcoming-section">
-        <h2>NOL PLAY</h2>
-
-        <div class="category-tags">
-            <span class="tag active">추천영상</span>
-            <span class="tag">뮤지컬</span>
-            <span class="tag">콘서트</span>
-            <span class="tag">전시/행사</span>
-            <span class="tag">클래식/무용</span>
-            <span class="tag">연극</span>
-        </div>
-
-        <div class="upcoming-grid">
-            <div class="upcoming-card">
-                <div class="upcoming-thumb"></div>
-                <div class="upcoming-info">
-                    <span class="date">07.10 오픈</span>
-                    <span class="title">DAY6 4TH FANMEETING〈PIER 10: All My Days〉</span>
-                </div>
+        <div class="inner">
+            <h2>NOL PLAY</h2>
+            <div class="category-tags">
+                <span class="tag active">추천영상</span>
+                <span class="tag">뮤지컬</span>
+                <span class="tag">콘서트</span>
+                <span class="tag">전시/행사</span>
+                <span class="tag">클래식/무용</span>
+                <span class="tag">연극</span>
             </div>
-            <div class="upcoming-card">
-                <div class="upcoming-thumb"></div>
-                <div class="upcoming-info">
-                    <span class="date">07.11 오픈</span>
-                    <span class="title">PARK BO GUM 2025 FAN MEETING TOUR [BE WITH YOU] IN SEOUL </span>
+            <div class="upcoming-grid">
+                <div class="upcoming-card">
+                    <div class="upcoming-thumb"></div>
+                    <div class="upcoming-info">
+                        <span class="date">07.10 오픈</span>
+                        <span class="title">DAY6 4TH FANMEETING〈PIER 10: All My Days〉</span>
+                    </div>
                 </div>
-            </div>
-            <div class="upcoming-card">
-                <div class="upcoming-thumb"></div>
-                <div class="upcoming-info">
-                    <span class="date">07.12 오픈</span>
-                    <span class="title">연극 </span>
+                <div class="upcoming-card">
+                    <div class="upcoming-thumb"></div>
+                    <div class="upcoming-info">
+                        <span class="date">07.11 오픈</span>
+                        <span class="title">PARK BO GUM 2025 FAN MEETING TOUR [BE WITH YOU] IN SEOUL </span>
+                    </div>
+                </div>
+                <div class="upcoming-card">
+                    <div class="upcoming-thumb"></div>
+                    <div class="upcoming-info">
+                        <span class="date">07.12 오픈</span>
+                        <span class="title">연극 </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -182,67 +270,233 @@
     </section>
 
     <section class="grid-section">
-        <h2>지금 할인중!</h2>
-        <div class="card-grid six-columns">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+        <div class="inner">
+
+            <h2>지금 할인중!</h2>
+
+            <div class="card-grid six-columns">
+                
+                <div class="card">
+                    <div class="poster" style="background-image: url(images/25008581_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">파이널 판타지 피아노 콘서트: Crystalline Resonance</p>
+                        <p class="venue">롯데콘서트홀</p>
+                        <p class="date">2025.08.13</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="poster" style="background-image: url(images/24008626_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">대학로 혜화 연극 사내연애 보고서</p>
+                        <p class="venue">대학로 제나아트홀</p>
+                        <p class="date">2024-07.01~2025.08.31</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="poster" style="background-image: url(images/25008017_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">연극 <굿피플> </p>
+                        <p class="venue">씨어터 조이</p>
+                        <p class="date">2025.07.11~2025.07.27</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="poster" style="background-image: url(images/25007379_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">뮤지컬 <마하고니> </p>
+                        <p class="venue">링크아트센터 페이코홀</p>
+                        <p class="date">2025.06.17~2025.08.31</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="poster" style="background-image: url(images/25009291_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">［파이널콜］연극〈늘근도둑이야기〉</p>
+                        <p class="venue">대학로 아트포레스트 1관</p>
+                        <p class="date">2025.07.01 ~2025.07.20</p>
+                    </div>
+                </div>
+            </div>
+            <div class="button-wrapper">
+                <button class="main-button">할인티켓 전체보기 > </button>
+            </div>
         </div>
-        <button class="main-button">할인티켓 전체보기&gt;</button>
+
     </section>
-
-
 
     <section class="grid-section">
-        <h2>MD Pick!</h2>
-        <div class="category-tags">
-            <span class="tag active">오직 NOL 티켓에서만</span>
-            <span class="tag">핫이슈 클래식&무용</span>
-            <span class="tag">화제의 전시</span>
-            <span class="tag">해외 공연</span>
-        </div>
+        <div class="inner">
+            <h2>MD Pick!</h2>
+            <div class="category-tags">
+                <span class="tag active">오직 NOL 티켓에서만</span>
+                <span class="tag">핫이슈 클래식&무용</span>
+                <span class="tag">화제의 전시</span>
+                <span class="tag">해외 공연</span>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="poster" style="background-image: url(images/20250620-54087.jpg);"></div>
+                     <div class="info">
+                         <p class="title">DAY6 4TH FANMEETING〈PIER 10: All My Days〉</p>
+                        <p class="venue">잠실실내체육관</p>
+                        <p class="date">2025.07.18~2025.07.27</p>
+                    </div>
+                </div>
 
+                <div class="card">
+                    <div class="card" style="background-image: url(images/25009728_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">CHRISTIAN KURIA LIVE IN SEOUL</p>
+                        <p class="venue">스카이아트홀</p>
+                        <p class="date">2025.11.02</p>
+                    </div>
+                </div>
 
-        <div class="card-grid">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+                <div class="card">
+                    <div class="card" style="background-image: url(images/25009474_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">이은미 ＆ 재즈 페스타 - 함양</p>
+                        <p class="venue">함양군문화예술회관 대공연장</p>
+                        <p class="date">2025.07.25</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card" style="background-image: url(images/25009648_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">모스크바 라 클라시크 발레단 월드투어 〈백조의 호수〉</p>
+                        <p class="venue">부산시민회관 대극장</p>
+                        <p class="date">2025.07.11 ~2025.07.13</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card" style="background-image: url(images/25009609_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">뮤지컬 〈두 낫 디스터브〉</p>
+                        <p class="venue">NOL 서경스퀘어 스콘 1관</p>
+                        <p class="date">2025.06.10 ~2025.08.31</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="grid-section">
-        <h2>추천키워드</h2>
-        <div class="category-tags">
-            <span class="tag active">👍재관람율 높은</span>
-            <span class="tag">🧸아이와 함께</span>
-            <span class="tag">🤡대학로 연극 추천</span>
-        </div>
+    <section class="grid-section" style="padding-top: 100px;">
+        <div class="inner">
+            <h2>추천키워드</h2>
+            <div class="category-tags">
+                <span class="tag active">👍재관람율 높은</span>
+                <span class="tag">🧸아이와 함께</span>
+                <span class="tag">🤡대학로 연극 추천</span>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card" style="background-image: url(images/25002863_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">2025 키즈 마티네 콘서트 - 7월 - 김포</p>
+                        <p class="venue">김포아트홀</p>
+                        <p class="date">2025.07.19</p>
+                    </div>
+                </div>
 
-        <div class="card-grid">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+                <div class="card">
+                    <div class="card" style="background-image: url(images/25008436_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">연애, 오류404</p>
+                        <p class="venue">대학로 스카이씨어터 2관</p>
+                        <p class="date">2025.06.25 ~오픈런</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card" style="background-image: url(images/25006845_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">뮤지컬 〈등등곡〉</p>
+                        <p class="venue">예스24스테이지 1관</p>
+                        <p class="date">2025.06.24 ~2025.09.14</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card" style="background-image: url(images/25006347_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">뮤지컬 〈리틀잭〉</p>
+                        <p class="venue">예스24아트원 2관</p>
+                        <p class="date">2025.06.28 ~2025.09.21</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card" style="background-image: url(images/25005844_p.gif);"></div>
+                     <div class="info">
+                        <p class="title">뮤지컬 〈개와 고양이의 시간〉</p>
+                        <p class="venue">대학로 더굿씨어터</p>
+                        <p class="date">2025.05.21 ~2025.08.10</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="banner">
-        <div class="banner-content">button</div>
-    </section>
+     <section class="review-banner">
+        <img src="images/best-review-banner-image.svg" alt="">
+  </section>
 
-
-    <footer class="footer">
-        <div class="footer-cols">
-            <div class="footer-col">Title<br>Text</div>
-            <div class="footer-col">Title<br>Text</div>
-            <div class="footer-col">Title<br>Text</div>
+  <section class="best-review-section">
+    <h2 class="section-title">베스트 관람후기</h2>
+    <div class="review-grid">
+      <!-- 후기 카드 1 -->
+      <div class="review-card">
+        <img src="images/25007497_p.gif" alt="" class="poster-img" />
+        <div class="review-content">
+          <p class="category">스위트홈</p>
+          <h3 class="title">N차 관람? 저는...</h3>
+          <p class="desc">또 갑니다. 무조건!! 주제를 넓혀가기엔 이야기의 설득력이 높지는 않습니다. 그럼에도 이 시대의 소리들을 함축적으로 잘 담아낸 극이라고 생각합니다. 긴 호흡의 대사들을 엄청난 호소력으로 내 뱉으시는 배우님들의 연기에 저절로 입을 벌리게 되었고 몰입하게 되었습니다. 가볍...</p>
+          <p class="user">juck*** ⭐ 6.7</p>
         </div>
-    </footer>
+      </div>
+
+      <!-- 후기 카드 2 -->
+      <div class="review-card">
+        <img src="images/24007080_p.gif" alt="" class="poster-img" />
+        <div class="review-content">
+          <p class="category">연극 〈남사친 여사친〉(사랑 vs 우정) 현실공감 로코</p>
+          <h3 class="title">웃다가 울다가 정신없는 90분</h3>
+          <p class="desc">대학로에서 연극 많이 봤지만, ''남사친여사친''은 정말 특별했다. 제목이 너무 직설적이어서 처음엔 좀 부담스러웠는데, 막상 보니까 이렇게 솔직하게 접근한 게 오히려 좋았다. 가장 좋았던 건 배우들의 케미다. 정말 자연스러워서 실제 친구들을 보는 것 같았다. 특히 미리와 민석의...</p>
+          <p class="user">14k*** ⭐ 9.9</p>
+        </div>
+      </div>
+
+      <!-- 후기 카드 3 -->
+      <div class="review-card">
+        <img src="images/24002802_p.gif" alt="" class="poster-img" />
+        <div class="review-content">
+          <p class="category">뮤직드라마 〈불편한 편의점〉 - 올웨이즈씨어터</p>
+          <h3 class="title">심리치료 받고 온 느낌 !!</h3>
+          <p class="desc">7월의 첫 주말, 오랜만에 초등학교 친구들을 만날 약속을 정하며 뜻깊은 추억거리를 만들고자 고심해 결정한 것이 '불편한 편의점' 공연이었어요. 이미 책으로 내용을 알고 있었지만 그 활자 하나하나가 배우들의 몸짓과 대사가 되어 바로앞에서 보여지는 경험은 마흔의 마직막해를...</p>
+          <p class="user">lovelych*** ⭐ 9.7</p>
+        </div>
+      </div>
+     
+
+      <!-- 후기 카드 4 -->
+      <div class="review-card">
+        <img src="images/25007212_p.gif" alt="" class="poster-img" />
+        <div class="review-content">
+          <p class="category"> 연극 〈셰익스피어 인 러브〉</p>
+          <h3 class="title">첫관람인데 의외로 재밌었어요</h3>
+          <p class="desc">줄거리만 대충 알고 처음 본건데 너무 재밌게 봤어요. 주인공이 셰익스피어라 뭔가 진지한 내용의 극이라 좀 지루하려나 했는데 전혀 아니고 너무 즐겁게 잘 봤어요. 무대가 안쪽으로 깊던데 그래서 그런지 무대장치 연출이 엄청 화려하고 좋더라구요. 세트 퀄이랑 의상 퀄이 너무 좋아서 푹 빠져서 봤...</p>
+          <p class="user">sck*** ⭐ 9.4</p>
+        </div>
+      </div>
+    </div>
+    <button class="more-btn">+ 관람후기 새로 보기</button>
+  </section>
     <script src="script/js.js"></script>
 </body>
 
