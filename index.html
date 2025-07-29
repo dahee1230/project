@@ -18,12 +18,16 @@
         content="UI/UX 개선을 중심으로 인터파크 티켓 사이트를 리디자인한 포트폴리오입니다. HTML, CSS, JS를 활용한 실무 중심 퍼블리싱 사례입니다.">
     <title>Interpark Layout</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Pretendard&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 
 </head>
@@ -81,7 +85,16 @@
     </nav>
 
 
-    <section class="main-visual"></section>
+    <!-- Swiper Main Visual -->
+    <section class="main-visual swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url('images/250604060030_25007517.gif'); background-size: cover; background-position: center; height: 600px;"></div>
+        <div class="swiper-slide" style="background-image: url('images/250321090525_16007528.gif'); background-size: cover; background-position: center; height: 600px;"></div>
+        <div class="swiper-slide" style="background-image: url('images/250728020013_16007528.gif'); background-size: cover; background-position: center; height: 600px;"></div>
+        <div class="swiper-slide" style="background-image: url('images/250627125811_16007528.gif'); background-size: cover; background-position: center; height: 600px;"></div>
+        <div class="swiper-slide" style="background-image: url('images/250520101501_16007528.gif'); background-size: cover; background-position: center; height: 600px;"></div>
+      </div>
+    </section>
 
 
     <section class="slider small-slider"></section>
@@ -560,6 +573,7 @@
   </p>
 </footer>
     <script src="script/js.js"></script>
+    <script src="script/main-visual-swiper.js"></script>
 </body>
 
 </html>
