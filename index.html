@@ -2,8 +2,8 @@
 <html lang="ko">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/partner-nol.svg">
     <meta name="description" content="UI/UX 개선을 중심으로 인터파크 티켓 사이트를 리디자인한 포트폴리오입니다. HTML, CSS, JS를 활용한 실무 중심 퍼블리싱 사례입니다.">
     <meta name="keywords"
@@ -16,15 +16,15 @@
     <meta property="og:site_name" content="인터파크티켓 리디자인 프로젝트">
     <meta property="og:description"
         content="UI/UX 개선을 중심으로 인터파크 티켓 사이트를 리디자인한 포트폴리오입니다. HTML, CSS, JS를 활용한 실무 중심 퍼블리싱 사례입니다.">
-    <title>Interpark Layout</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <title>Interpark project</title>
+    <link rel="stylesheet" href="css/styles.css">
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Pretendard&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
@@ -45,10 +45,10 @@
         <header class="header">
             <div class="left-section">
                 <div class="logo">
-                    <img src="images/nol-interpark-logo.svg" alt="로고">
+                    <a href="index.html"><img src="images/nol-interpark-logo.svg" alt="로고"></a>
                 </div>
                 <div class="search-wrapper">
-                    <input type="text" placeholder="" class="search" />
+                    <input type="text" placeholder="" class="search">
                     <span class="search-icon"><img src="images/material-symbols_search-rounded.png" alt="검색"></span>
                 </div>
             </div>
@@ -85,7 +85,7 @@
     </nav>
 
 
-    <!-- Swiper Main Visual -->
+
     <section class="main-visual swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide"
@@ -106,9 +106,6 @@
         </div>
     </section>
 
-
-    <!-- <section class="slider small-slider"></section> -->
-
     <section class="recommend-section">
         <div class="inner">
             <div class="horizontal-cards">
@@ -127,14 +124,14 @@
         <div class="section-inner">
             <h2>장르별 랭킹</h2>
             <div class="category-tags">
-                <span class="tag active">뮤지컬</span>
-                <span class="tag">콘서트</span>
-                <span class="tag">스포츠</span>
-                <span class="tag">전시/행사</span>
-                <span class="tag">클래식/무용</span>
-                <span class="tag">아동/가족</span>
-                <span class="tag">연극</span>
-                <span class="tag">레저/캠핑</span>
+                <button class="tag">뮤지컬</button>
+                <button class="tag active">콘서트</button>
+                <button class="tag">스포츠</button>
+                <button class="tag">전시/행사</button>
+                <button class="tag">클래식/무용</button>
+                <button class="tag">아동/가족</button>
+                <button class="tag">연극</button>
+                <button class="tag">레저/캠핑</button>
             </div>
             <div class="card-grid">
                 <div class="card">
@@ -251,7 +248,7 @@
                 </div>
             </div>
             <div class="button-wrapper">
-                <button class="main-button">오픈예정 공연 전체보기></button>
+                <button class="main-button">오픈예정 공연 전체보기 ></button>
             </div>
         </div>
     </section>
@@ -260,51 +257,49 @@
         <div class="inner">
             <h2>NOL PLAY</h2>
             <div class="category-tags">
-                <span class="tag active">추천영상</span>
-                <span class="tag">뮤지컬</span>
-                <span class="tag">콘서트</span>
-                <span class="tag">전시/행사</span>
-                <span class="tag">클래식/무용</span>
-                <span class="tag">연극</span>
+                <button class="tag active">추천영상</button>
+                <button class="tag">뮤지컬</button>
+                <button class="tag">콘서트</button>
+                <button class="tag">전시/행사</button>
+                <button class="tag">클래식/무용</button>
+                <button class="tag">연극</button>
             </div>
 
             <div class="video-grid">
-                <!-- 영상 카드 1 -->
                 <div class="video-card">
                     <div class="video-wrapper">
                         <video src="images/6bf45107-eda5-49a6-8adf-2bb460506d4d-1.mp4" controls></video>
                     </div>
                     <div class="video-info">
                         <p class="title">
-                           뮤지컬 <br>〈브로드웨이 42번가〉
+                            뮤지컬 <br>〈브로드웨이 42번가〉
                         </p>
                     </div>
                 </div>
 
-                <!-- 영상 카드 2 -->
                 <div class="video-card">
                     <div class="video-wrapper">
                         <video src="images/a60e085e-ef88-4525-b514-336a20ad5124-0.mp4" controls></video>
                     </div>
                     <div class="video-info">
                         <p class="title">
-                          연극 <br>〈2시 22분 - A GHOST STORY〉
+                            연극 <br>〈2시 22분 - A GHOST STORY〉
                         </p>
                     </div>
                 </div>
 
-                <!-- 영상 카드 3 -->
-              <div class="video-card">
+                <div class="video-card">
                     <div class="video-wrapper">
                         <video src="images/757afd86-705b-44b8-a264-dd0a3635d991-0.mp4" controls></video>
                     </div>
                     <div class="video-info">
                         <p class="title">
-                          클래식/무용 <br>  〈파리 오페라 발레 에투알 갈라 2025〉
+                            클래식/무용 <br> 〈파리 오페라 발레 에투알 갈라 2025〉
                         </p>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <section class="category-section">
@@ -335,7 +330,7 @@
                 <div class="card">
                     <div class="poster" style="background-image: url(images/25008017_p.gif);"></div>
                     <div class="info">
-                        <p class="title">연극 <굿피플>
+                        <p class="title">연극 [굿피플]
                         </p>
                         <p class="venue">씨어터 조이</p>
                         <p class="date">2025.07.11~2025.07.27</p>
@@ -345,7 +340,7 @@
                 <div class="card">
                     <div class="poster" style="background-image: url(images/25007379_p.gif);"></div>
                     <div class="info">
-                        <p class="title">뮤지컬 <마하고니>
+                        <p class="title">뮤지컬 [마하고니]
                         </p>
                         <p class="venue">링크아트센터 페이코홀</p>
                         <p class="date">2025.06.17~2025.08.31</p>
@@ -372,10 +367,10 @@
         <div class="section-inner">
             <h2>MD Pick!</h2>
             <div class="category-tags">
-                <span class="tag active">오직 NOL 티켓에서만</span>
-                <span class="tag">핫이슈 클래식&무용</span>
-                <span class="tag">화제의 전시</span>
-                <span class="tag">해외 공연</span>
+                <button class="tag active">오직 NOL 티켓에서만</button>
+                <button class="tag">핫이슈 클래식&무용</button>
+                <button class="tag">화제의 전시</button>
+                <button class="tag">해외 공연</button>
             </div>
             <div class="card-grid">
                 <div class="card">
@@ -430,9 +425,9 @@
         <div class="section-inner">
             <h2>추천키워드</h2>
             <div class="category-tags">
-                <span class="tag active">👍 재관람율 높은</span>
-                <span class="tag">🧸 아이와 함께</span>
-                <span class="tag">🤡 대학로 연극 추천</span>
+                <button class="tag active">👍 재관람율 높은</button>
+                <button class="tag">🧸 아이와 함께</button>
+                <button class="tag">🤡 대학로 연극 추천</button>
             </div>
             <div class="card-grid">
                 <div class="card">
@@ -490,7 +485,7 @@
     <section class="best-review-section">
         <h2 class="section-title">베스트 관람후기</h2>
         <div class="review-grid">
-            <!-- 후기 카드 1 -->
+
             <div class="review-card">
                 <img src="images/25007497_p.gif" alt="" class="poster-img" />
                 <div class="review-content">
@@ -502,7 +497,6 @@
                 </div>
             </div>
 
-            <!-- 후기 카드 2 -->
             <div class="review-card">
                 <img src="images/24007080_p.gif" alt="" class="poster-img" />
                 <div class="review-content">
@@ -514,7 +508,6 @@
                 </div>
             </div>
 
-            <!-- 후기 카드 3 -->
             <div class="review-card">
                 <img src="images/24002802_p.gif" alt="" class="poster-img" />
                 <div class="review-content">
@@ -526,8 +519,6 @@
                 </div>
             </div>
 
-
-            <!-- 후기 카드 4 -->
             <div class="review-card">
                 <img src="images/25007212_p.gif" alt="" class="poster-img" />
                 <div class="review-content">
@@ -564,7 +555,7 @@
         <div class="footer-links">
             <a href="#">회사소개</a>
             <a href="#">이용약관</a>
-            <a href="#">개인정보처리방침</a>
+            <a href="#" class="highlight">개인정보처리방침</a>
             <a href="#">위치기반서비스 이용약관</a>
             <a href="#">여행약관</a>
             <a href="#">여행자보험 가입내역</a>
@@ -607,6 +598,8 @@
             © Nol Universe Co., Ltd. All rights reserved.
         </p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="script/js.js"></script>
     <script src="script/swiper.js"></script>
 </body>
